@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  @include text(2em, 2em, bold);
+  @include text(2em, 1.6em, bold);
 }
 
 h3 {
@@ -41,5 +41,5 @@ h3 {
 }
 
 p,li {
-    @include text(1.6em,2em);
+    @include text(1.6em, 1.8em);
 }
